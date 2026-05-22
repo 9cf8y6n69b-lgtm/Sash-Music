@@ -1,0 +1,37 @@
+{
+  "name": "enzomusic",
+  "version": "1.0.0",
+  "description": "Discord music bot powered by Lavalink",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "deploy": "node deploy/deployGlobal",
+    "deploy:guild": "node deploy/deployGuild",
+    "destroy:guild": "node deploy/destroyGuild",
+    "destroy:global": "node deploy/destroyGlobal"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "axios": "^0.27.0",
+    "colors": "1.3.3",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.0.1",
+    "js-yaml": "^4.1.0",
+    "jsoning": "^0.13.0",
+    "lavalink-client": "^2.3.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "node-fetch": "2.6.7",
+    "os": "^0.1.2",
+    "pretty-ms": "^7.0.1",
+    "rlyrics": "^2.0.1",
+    "systeminformation": "^5.9.12",
+    "winston": "^3.3.3",
+    "youtube-sr": "^4.3.4"
+  }
+}
